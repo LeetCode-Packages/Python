@@ -1,0 +1,20 @@
+[project]
+name = "leetcode_lib"
+version = "0.0.1"
+authors = [{ name = "tarolling", email = "benitojoens@gmail.com" }]
+description = "Implementations of LeetCode problem solutions in Python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/LeetCode-Packages/Python"
+Issues = "https://github.com/LeetCode-Packages/Python/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
