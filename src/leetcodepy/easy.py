@@ -27,16 +27,16 @@ def two_sum(nums: list[int], target: int) -> list[int]:
 
     Constraints:
 
-        2 <= nums.length <= 104
-        -109 <= nums[i] <= 109
-        -109 <= target <= 109
+        2 <= nums.length <= 10^4
+        -10^9 <= nums[i] <= 10^9
+        -10^9 <= target <= 10^9
         Only one valid answer exists.
 
     """
     # Constraints
-    assert 2 <= len(nums) <= 104
-    assert all(map(lambda x: -109 <= x <= 109, nums))
-    assert -109 <= target <= 109
+    assert 2 <= len(nums) <= 10**4
+    assert all(map(lambda x: -(10**9) <= x <= 10**9, nums))
+    assert -(10**9) <= target <= 10**9
 
     # Implementation
     hashmap = {}
