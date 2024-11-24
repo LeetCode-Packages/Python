@@ -1,6 +1,6 @@
 import re
 
-from . import ListNode
+from .utils import ListNode
 
 
 def add_two_numbers(l1: ListNode | None, l2: ListNode | None) -> ListNode | None:
@@ -87,7 +87,7 @@ def longest_substring_without_repeating_characters(s: str) -> int:
     assert 0 <= len(s) <= 5 * 10**4
 
     max_length = left = 0
-    count = {}
+    count: dict[str, int] = {}
 
     for right, c in enumerate(s):
         count[c] = 1 + count.get(c, 0)

@@ -1,10 +1,10 @@
 from src.leetcodepy.medium import *
-from src.leetcodepy import ListNode
+from src.leetcodepy.utils import ListNode
 
 
 def test_add_two_numbers():
-    def list_node_to_list(l: ListNode) -> list:
-        result = []
+    def list_node_to_list(l: ListNode) -> list[int]:
+        result: list[int] = []
         current_node = l
         while current_node.next is not None:
             result.append(current_node.val)

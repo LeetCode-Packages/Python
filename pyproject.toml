@@ -1,6 +1,6 @@
 [project]
 name = "leetcodepy"
-version = "0.0.1"
+version = "0.0.2"
 authors = [{ name = "tarolling", email = "benitojoens@gmail.com" }]
 description = "Implementations of LeetCode problem solutions in Python"
 readme = "README.md"
